@@ -23,8 +23,9 @@ header {
 }
 
 header a{
-  color: black;
+  color: rgba(12, 12, 12, 0.404);
   text-decoration: none;
+  display: inline-block;
 }
 
 header > .container {
@@ -33,7 +34,7 @@ header > .container {
   justify-content: space-between;
 }
 
-header nav ul {
+.navbar ul {
   list-style-type: none;
 }
 
@@ -43,7 +44,50 @@ header nav ul li {
   font-size: large;
 }
 
+header nav ul li a:hover{
+  color: black;
+  transform: scale(1.05);
+}
+
+header .botao {
+  padding: 1pc 2pc;
+  font-size: large;
+  background-color: #fcd4cd;
+  border-radius: 1pc;
+  cursor: pointer;
+}
+
+header .botao:hover{
+  transform: scale(1.05);
+}
+
 .logo > a > img {
   height: 10pc;
   width: 10pc;
+}
+
+
+
+.conteúdo {
+  
+}
+
+.conteúdo  #início  .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conteúdo .container .introdução {
+  padding: 1pc;
+}
+
+#início .container p{
+  max-width: 60pc;
+  max-height: fit-content;
+}
+
+#início .container img {
+  height: auto;
+  width: 6pc;
 }
