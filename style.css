@@ -129,8 +129,10 @@ header nav ul li a:hover{
 }
 
 #contatos ul li a img {
+padding-inline: 5pc;
   height: 10pc;
   width: auto;
+  border-radius: 100%;
 }
 
 #contatos ul li p {
