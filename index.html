@@ -21,10 +21,10 @@
             </div>
             <nav classe = "navbar">
                 <ul>
-                    <li><a href="#início">Início</a></li>
-                    <li><a href="#experiências">Experiências</a></li>
-                    <li><a href="">Projetos</a></li>
-                    <li><a href="">Contatos</a></li>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#início">Experiências</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
                 </ul>
             </nav>
             <button class="botao">
@@ -38,18 +38,23 @@
             <div class="container">
                 <div class = "introdução">
                     <h2>Introdução</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sunt! Doloribus laudantium voluptatum quis tempore harum reiciendis, ratione consequuntur! Perspiciatis officia vel ducimus optio pariatur accusantium numquam debitis labore earum.
+                    <p>  
+Bem-vindo ao meu portfolio! Sou Tomé da Costa Lima, estudante do primeiro período de Ciência da Computação no CIn-UFPE. Com uma paixão pela resolução de problemas desafiadores, pretendo atuar na área da ciência de dados ou na pesquisa acadêmica. Fora da programação, tento me relaxar com música, xadrez e RPGS de mesa. Aqui, compartilho um pedaço do meu percurso no mundo da computação, sempre buscando novos problemas reais e interessantes.
                     </p>
                 </div>
-                <img id = 'd20' src="assets/d20-dice-01.png" alt="">
+                <div class="d20">
+                    <a href="https://pt.wikipedia.org/wiki/Role-playing_game">
+                        <img src="assets/d20-dice-01.png" alt="">
+                    </a>
+                    <p>Clique no dado para saber mais sobre rpgs de mesa</p>
+                </div>
             </div>
         </section>
         
         <section id="experiencias">
             <div class="container">
-                <h2>Experiências</h2>
                 <div class="navbar">
+                    <h2>Experiências</h2>
                     <ul>
                         <li>Medalha de Bronze na Olimpiada Brasileira de Química (2019)</li>
                         <li>Medalha de Bronze na Olimpíada Pernambucana de Matemática (2021)</li>
@@ -63,10 +68,50 @@
             </div>
         </section>
 
-        <section id="Projetos">
-            <dic class="container">
+        <section id="projetos">
+            <div class="container">
                 <h2>Projetos</h2>
-            </dic>
+                <div class="projeto">
+                    <a href="https://github.com/scrrpfv/projetoIC" target="_blank"><h3>ProjetoIC</h3></a> <p>(ml4k, Scratch)</p>
+                    <p>
+                        Projeto desenvolvido para fins de obtenção de nota na cadeira de Introdução à Computação
+                        do curso de Ciência da Computação. Dentro da plataforma ml4k, treinamos um modelo de
+                        machine learning que recebe uma imagem de input e determina se ela representa uma paisagem
+                        natural ou artificial. Além disso, realizamos a implementação dentro da plataforma "Scratch".
+                    </p>
+                </div>
+                <div class="projeto">
+                    <a href="https://github.com/tclcin/Kivy_Tetris/tree/screens-dev" target="_blank"><h3>Kivy_Tetris</h3></a> <p>(python, Kivy)</p>
+                    <p>
+                        Eu e um colega estudante do curso de Sistemas de Informação da UFRPE pegamos uma implementação do jogo
+                        "Tetris" na biblioteca Kivy o melhoramos através de um refactoring do código original e da adição
+                        de elementos UX, como Splash Screen, tela de menu e possibilidade de manipulação da dificuldade do
+                        jogo por parte do usuário.
+                    </p>
+                </div>
+                <div class="projeto">
+                    <a href="#" target="_blank"><h3>Site portfolio</h3></a> <p>(html5, css)</p>
+                    <p>
+                        Esse site que você está vendo! Repositório com o código fonte <a href="https://github.com/tclcin/projetoweb-tcl"> aqui</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contatos">
+            <div class="container">
+                <h2>Contatos</h2>
+                <nav class="navbar">
+                    <ul>
+                        <li>
+                            <a href=""><img src="assets/github_logo.png" alt=""></a> <p>Github</p> 
+                        </li>
+                        <li>
+                            <a href=""><img src="assets/linkedin_logo.png" alt=""></a> <p>LinkedIn</p> 
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </section>
     </div>
 

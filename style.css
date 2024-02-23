@@ -13,13 +13,24 @@ body{
   height: 100vh;
 }
 
+body a:hover{
+  transform: scale(1.05);
+}
+
+
 .container {
   margin: 0 auto;
   max-width: 1280px;
 }
 
 header {
-  padding: 1pc;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(252, 212, 164);
+  color: bisque;
 }
 
 header a{
@@ -46,6 +57,9 @@ header nav ul li {
 
 header nav ul li a:hover{
   color: black;
+}
+
+header .botao:hover{
   transform: scale(1.05);
 }
 
@@ -57,19 +71,16 @@ header .botao {
   cursor: pointer;
 }
 
-header .botao:hover{
-  transform: scale(1.05);
-}
 
 .logo > a > img {
   height: 10pc;
   width: 10pc;
 }
 
-
-
 .conteúdo {
-  
+  margin-top: 11pc ;
+
+
 }
 
 .conteúdo  #início  .container{
@@ -79,7 +90,7 @@ header .botao:hover{
 }
 
 .conteúdo .container .introdução {
-  padding: 1pc;
+  padding: 0;
 }
 
 #início .container p{
@@ -87,7 +98,53 @@ header .botao:hover{
   max-height: fit-content;
 }
 
-#início .container img {
+.d20 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1pc;
+}
+
+.d20 img {
   height: auto;
   width: 6pc;
+}
+
+.d20 a:hover {
+  transform: scale(1.05);
+}
+
+.d20 p {
+  text-align: center;
+}
+
+#projetos .container {
+  margin-top: 2pc;
+}
+
+.projeto {
+  margin: 1pc;
+}
+
+.projeto p {
+  margin-top: 0.5pc;
+}
+
+#contatos {
+  margin-top: 4pc;
+}
+
+#contatos ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contatos ul li a img {
+  height: 10pc;
+  width: auto;
+}
+
+#contatos ul li p {
+  text-align: center;
 }
